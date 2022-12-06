@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>build-met</title>
+    <link rel="stylesheet" href="{% static 'css/s1.css' %}">
+</head>
+<body>
+    <div id="parent">
+        <div id="Box1">
+            <button id="btn1" onclick="click1()">
+                green
+            </button>
+        </div>
+        <div id="Box2">
+            <button id="btn2" onclick="click2()">
+                black
+            </button>
+        </div>
+        <div id="Box3">
+            <button id="btn3" onclick="click3()">
+                orangered
+            </button>
+        </div>
+    </div>
+    <script src="{% static 'js/new.js' %}"></script>
+</body>
+</html>
